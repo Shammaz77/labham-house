@@ -4,6 +4,9 @@
   padding: 0;
   font-family: 'Inter', sans-serif;
 }
+.labham-primary-bg{
+	background: #EF1E42;
+}
 ul li {
   list-style: none;
 }
@@ -23,22 +26,22 @@ p, button, a, input, span, li {
 	font-size: 16px;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 2rem !important;
 }
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.5rem !important;
 }
 h3 {
-	font-size: 1.3rem;
+	font-size: 1.3rem !important;
 }
 h4 {
-	font-size: 1rem;
+	font-size: 1rem !important;
 }
 h5 {
-	font-size: 0.9rem;
+	font-size: 0.9rem !important;
 }
 h6 {
-	font-size: 0.8rem;
+	font-size: 0.8rem !important;
 }
 /* container-main  */
 .container-main {
@@ -58,7 +61,7 @@ h6 {
 }
 nav {
 	background-color: #ffff;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	border: 1px solid #EDEDED;
 }
 .nav-logo{
@@ -156,4 +159,24 @@ nav .nav-buttons ul li a img{
 .under-nav ul li a{
 	color: #000;
 	text-decoration: none;
+}
+nav .under-container-nav .under-nav .active-nav{
+	color: #E51F43;
+}
+/* footer  */
+footer .logo-footer{
+	width: 200px;
+}
+footer ul li{
+	line-height: 2.2;
+	list-style: none;
+	color: #000;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #000;
+}
+footer ul li a:hover{
+	text-decoration: none;
+	color: #000;
 }
