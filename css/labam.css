@@ -220,13 +220,32 @@
 .keep-in-touch .inner-div-keep-in-touch .keep-touch-head{
 	color: #000;
 } */
-
-
-
-
-
-
-
+/* sign in page  */
+.signin{
+	margin-top: 110px !important;
+	margin-bottom: 150px !important;
+}
+.signin form{
+	max-width: 400px !important;
+	margin: auto !important;
+}
+.signin .signin-main-text{
+	font-weight: 800;
+}
+.signin .form-control{
+	padding: 15px 10px;
+	border: 1px solid #000000;
+}
+.login-btn-signup{
+	padding: 15px 10px !important;
+	border-radius: 12px !important;
+}
+.agree-dv label{
+	font-weight: 700;
+}
+.agree-dv label span{
+	font-weight: 500 !important ;
+}
 
 
 
