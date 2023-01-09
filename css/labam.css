@@ -194,14 +194,32 @@
 	margin-bottom: 0px !important;
 	padding: 20px;
 }
-
-
-
-
-
-
-
-
+/* contact page  */
+.contact-details .inner-col-contact img{
+	width: 60px !important;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-details{
+	padding: 50px 0px !important;
+}
+.contact-details .inner-col-contact{
+	padding: 40px 0px;
+	min-height: 280px;
+	box-shadow: 0px 5px 18.9px 2.1px rgba(0, 0, 0, 0.05);
+}
+.contact-details .inner-col-contact img{
+	margin-bottom: 30px !important;
+}
+/* keep in touch section  */
+/* .keep-in-touch .inner-keep-in-touch{
+	width: 100%;
+	box-shadow: 0px 5px 18.9px 2.1px rgba(0, 0, 0, 0.05);
+}
+.keep-in-touch .inner-div-keep-in-touch .keep-touch-head{
+	color: #000;
+} */
 
 
 
