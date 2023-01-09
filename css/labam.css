@@ -110,12 +110,35 @@
 .banner-sub-head .main-head-products{
 	font-weight: 600;
 }
-
-
-
-
-
-
+.banner-main .banner-main-head{
+	color: #fff !important;
+}
+/* about page  */
+.about-section{
+	padding: 45px 0px;
+}
+.about-section .inner-col-about img{
+	width: unset !important;
+}
+.about-content{
+	padding: 40px 0px;
+}
+.about-main-bg{
+	margin: auto !important;
+}
+.about-main-bg .about-sub-head-banner{
+	font-weight: 300;
+	width: 40%;
+	margin: auto;
+	line-height: 1.8;
+}
+.about-main-bg .believe-text{
+	padding: 9px 40px;
+	width: max-content;
+	margin: auto;
+	margin-bottom: 15px !important;
+	font-weight: 300;
+}
 
 
 
@@ -192,6 +215,23 @@
 	}
 	footer{
 		padding: 8% 0 1% 0 !important;
+	}
+	.about-section .inner-col-about{
+		margin-bottom: 20px !important;
+	}
+	.about-content .inner-col-about-6{
+		margin-bottom: 20px !important;
+	}
+	.about-content {
+    padding: 20px 0px;
+	}
+	.about-main-bg .about-sub-head-banner {
+    width: 60%;
+    margin: auto;
+    line-height: 1.4;
+	}
+	.about-section {
+    padding: 45px 0px 0px 0px !important;
 	}
 }
 @media (max-width:485px){
