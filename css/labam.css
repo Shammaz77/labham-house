@@ -332,13 +332,76 @@
 
 
 
-
-
-
-
-
-
-
+/* mpdal sign in  */
+.modal-loginform form input{
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid #C2C2C2;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.modal-loginform button{
+	background: #008C16;
+	color: #fff;
+	width: 100%;
+	border: none;
+	padding: 6px 30px;
+	border-radius: 10px;
+}
+.clossse i{
+	font-size: 35px;
+	color:  #D9D9D9;
+}
+.modal-loginform-second form input{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	text-align:center;
+	border-radius: 10px;
+	border: 1px solid #C2C2C2;
+}
+.modal-loginform-second{
+	text-align: center;
+}
+.modal-third img{
+	width: 100px;
+}
+.model-sign-in-otp{
+	background: #ffff !important;
+	width: 85% !important;
+	border-radius: 20px !important;
+	border: 1px solid #ED1D41 !important;
+	margin: auto !important;
+}
+.login-btn-modal{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 15px !important;
+	width: 98%;
+	padding: 9px 2px !important;
+	border-radius: 10px !important;
+}
+.success-image-sign-in{
+	width: 80px !important;
+	margin-left: 25px !important;
+	margin-top: 30px !important;
+	margin-bottom: 20px !important;
+	border: 6px solid #ffff !important;
+	box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+}
+.btn-continue-sign-in{
+	border: 1px solid #EF1E42 !important;
+	border-radius: 18px !important;
+	padding: 6px 45px !important;
+}
+.login-succes-text{
+	font-weight: 600;
+}
+.login-succes-text:hover{
+	color: #000 !important;
+}
+/* modal end sign in  */
 
 
 
@@ -488,6 +551,7 @@
 	.category-section .populer-product .add-to-cart-btn {
     padding: 5px 15px;
     border-radius: 16px !important;
+    font-size: 11px !important;
 	}
 	.category-section .populer-product .product-details .product-rate {
     font-size: 14px !important;
@@ -531,6 +595,12 @@
 	.inner-col-cart-img .close-cart {
     right: 10px;
 	}
+	.carousel-home-banner .carousel-indicators{
+		display: none !important;
+	}
+	.category-section .populer-product .price-off-product {
+    padding: 10px 13px;
+	}
 }
 @media (max-width:360px){
 	.product-details .product-reviews img {
@@ -571,6 +641,9 @@
 	}
 	.cart {
     padding: 33px 0px;
+	}
+	.login-btn-signup {
+    padding: 9px 10px !important;
 	}
 }
 @media (max-width:280px){

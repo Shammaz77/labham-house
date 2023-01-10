@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LABHAM HOUSE | Sign in</title>
+  <title>LABHAM HOUSE | Sign In</title>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/labam.css">
 	<!-- fav icon  -->
@@ -89,16 +89,44 @@
 				</div>
 			</div>
 			<!-- Submit button -->
-			<a href="index.html" class="btn labham-primary-bg btn-block mb-4 text-white login-btn-signup">Login</a>
+			<a href="index.html" class="btn labham-primary-bg btn-block mb-4 text-white login-btn-signup" data-target="#exampleModal11" href="exampleModal11" data-toggle="modal">Login</a>
 		</form>
 	</div>
 
 
 
-
-
-
-
+	<div  class="modal fade"  tabindex="-1" role="dialog" id="exampleModal11"  aria-labelledby="exampleModalLabel11" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content model-sign-in-otp">
+				<div class="modal-body modal-loginform-second">
+					<div style="float: right;margin-top: 0px;display: table;margin-left: auto;" class=" clossse" class="close" data-dismiss="modal" aria-label="Close"><i style="font-size: 29px !important;" class="fa-regular fa-circle-xmark text-dark"></i></div>
+					<h3 class="labham-primary-color" style="margin-top: 32px;">Verify your OTP</h3>
+					<p>Sent to <span class="labham-primary-color">XXXXXXX70</span></p>
+					<form action="" class="mt-5">
+						<input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)' maxlength=1 >
+						<input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)' maxlength=1 >
+						<input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)' maxlength=1 >
+						<input class="otp" type="text" oninput='digitValidate(this)'onkeyup='tabChange(4)' maxlength=1 >
+					</form>
+					<h4 style="margin-top: 20px;" class="labham-primary-color">Resend Otp</h4>
+					<a href="#" class="btn text-white labham-primary-bg login-btn-modal" data-target="#exampleModal12" href="exampleModal12" data-toggle="modal" data-dismiss="modal">Login</a>
+					<h6 style="color: #7A7A7A;">DO NOT SHARE THIS OTP WITH ANYONE</h6>
+				</div>
+			</div>                                    
+		</div>              
+	</div>
+	<div  class="modal fade"  tabindex="-1" role="dialog" id="exampleModal12"  aria-labelledby="exampleModalLabel12" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content model-sign-in-otp">
+				<div class="modal-body modal-loginform-second">
+					<div style="float: right;margin-top: 0px;display: table;margin-left: auto;" class=" clossse" class="close" data-dismiss="modal" aria-label="Close"><i style="font-size: 29px !important;" class="fa-regular fa-circle-xmark text-dark"></i></div>
+					<img class="success-image-sign-in" src="./images/checked (1) 1.png" alt="success-img">
+					<h2 class="text-dark pb-3 login-succes-text">Log in <br> Successful</h2>
+					<a href="index.html" class="btn btn-continue-sign-in labham-primary-color">Continue</a>
+				</div>
+			</div>                                    
+		</div>              
+	</div>
 	<!-- footer   -->
   <footer id="footer" style="background-image: url(./images/footer-bg.png);background-repeat: no-repeat;background-size: 100% auto;padding: 3% 0 1% 0;background-position: center;background-repeat: no-repeat;background-size: cover;height: -webkit-fill-available;">
 		<div class="container-main">
