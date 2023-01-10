@@ -276,3 +276,55 @@ input[type=number] {
 .sidebar .sign-in-btn-mobile a{
 	color: #ffff !important;
 }
+/* side bar end  */
+/* cart increment decrement plus  */
+.person-bar-wrap .person-count {
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.person-bar-wrap .person-count .hidden-filter
+.hidden-filter-header {
+	padding: 20px 20px 20px 20px;
+}
+person-bar-wrap .person-count .hidden-filter
+.hidden-filter-context {
+	display: flex;
+	border-top: 1px solid #dcdde1;
+	align-items: center;
+	padding: 10px 20px;
+}
+.person-bar-wrap .person-count .hidden-filter
+.hidden-filter-context p.person-t {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+}
+.person-bar-wrap .person-count .hidden-filter
+.hidden-filter-context .minus, .counter, .plus {
+	display: flex;
+	justify-content: center;
+}
+.person-bar-wrap .person-count .hidden-filter
+.hidden-filter-context input.counter {
+	width: 40px;
+	border-width:0px;
+	border:none;
+	box-shadow: none;
+	border: 1px solid #ACACAC;
+	text-align: center;
+	border-left: 0px;
+	border-right: 0px;
+}
+.person-bar-wrap .person-count .hidden-filter
+.hidden-filter-context .minus, .plus {
+	color: rgb(0, 0, 0);
+	width: 32px;
+	height: 32px;
+	border-radius: 10px;
+	align-items: center;
+	text-align: center !important;
+	margin: auto;
+	border: 1px solid #ACACAC;
+}
