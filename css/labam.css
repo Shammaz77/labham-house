@@ -252,6 +252,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1300px){
 	.container-main {
     width: 90%;
@@ -384,6 +412,22 @@
 	.category-main .inner-col-category {
     margin-bottom: 15px !important;
 	}
+	.signin form {
+    max-width: 90% !important;
+    margin: auto !important;
+	}
+	.agree-dv label {
+    font-size: 13px;
+	}
+	.login-btn-signup{
+		padding: 12px 10px !important;
+		border-radius: 12px !important;
+		font-size: 15px !important;
+	}
+	.signin .signin-main-text {
+    font-weight: 700;
+    font-size: 29px !important;
+	}
 }
 @media (max-width:360px){
 	.product-details .product-reviews img {
@@ -398,6 +442,28 @@
 	.category-main .inner-col-category img {
     border: 3px solid #C1C1C1;
 	}	
+	.signin form {
+    max-width: 95% !important;
+    margin: auto !important;
+	}
+	.signin .signin-main-text {
+    font-weight: 700;
+    font-size: 26px !important;
+		}
+		.signin {
+			margin-top: 78px !important;
+			margin-bottom: 100px !important;
+		}
+}
+@media (max-width:280px){
+	.login-btn-signup {
+		padding: 7px 10px !important;
+		border-radius: 9px !important;
+		font-size: 14px !important;
+	}
+	.signin .read-agreeement{
+		margin-bottom: 3px !important;
+	}
 }
 
 

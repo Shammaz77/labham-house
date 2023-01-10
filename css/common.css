@@ -92,6 +92,7 @@ nav {
 	display: flex;
 	grid-column: 3/4;
 	align-items: center;
+	/* justify-content: center; */
 }
 .nav-buttons a{
 	color: #666666;
@@ -154,7 +155,7 @@ nav .nav-buttons ul li a img{
 	border: none;
 }
 .under-nav ul{
-	width: 50%;
+	width: 45%;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
