@@ -29,7 +29,7 @@
         <ul class="d-flex" style="margin-bottom: 0px;">
 					<li><a href="signin.html"><img src="./images/user.png" alt="login"> Sign Up/Sign In</a></li> 
 					<li><a href="cart.html"><img src="./images/Buy.png" alt="cart"> Cart</a></li>
-					<i class="fa-solid fa-bars d-md-block d-lg-none"></i>
+					<i onclick="toggleCartt()" class="fa-solid fa-bars d-md-block d-lg-none"></i>
 				</ul>
       </div>
     </div>
@@ -46,6 +46,23 @@
 		</div>
   </nav>
 	<!-- navbar end -->
+	<!-- sidebar  -->
+	<div class="sidebar">
+		<div class="navbar-sidebar">
+			<ul>
+				<li class="sidebar-li"><a class="active-sidebar" href="index.html">Home</a></li>
+				<li class="sidebar-li"><a href="products.html">Our Product</a></li>
+				<li class="sidebar-li"><a href="aboutus.html">About</a></li>
+				<li class="sidebar-li"><a href="blog.html">Blog</a></li>
+				<li class="sidebar-li"><a href="contactus.html">Contact us</a></li>
+				<li class="sidebar-li"><a href="cart.html">Cart</a></li>
+				<li class="sidebar-li"><a href="track.html">Track</a></li>
+				<li class="sign-in-btn-mobile"><a href="signin.html">Sign in</a></li>
+			</ul>
+		</div>
+		<div class="d-inline closse" onclick="toggleCartt()"><img src="./images/close-circle-line.png" alt="" srcset=""></div>
+	</div>
+	<!-- sidebar end  -->
 	<div class="container-main">
 		    <div id="carouselExampleIndicators" style="position: relative;" class="carousel slide slider-banner-home" data-ride="carousel">
       <ol class="carousel-indicators">
