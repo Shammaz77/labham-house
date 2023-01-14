@@ -328,3 +328,22 @@ person-bar-wrap .person-count .hidden-filter
 	margin: auto;
 	border: 1px solid #ACACAC;
 }
+/* underline  */
+.underline::after{
+	content: "";
+	margin: 4px auto 0px;
+	display: block;
+	width: 180px;
+	height: 2px;
+	border-radius: 2px;
+	background: #EF1E42;
+}
+.smlunderline::after{
+content: "";
+margin: 4px auto 0px;
+display: block;
+width: 40px;
+height: 2px;
+border-radius: 2px;
+background: #EF1E42;
+}
