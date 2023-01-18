@@ -66,18 +66,6 @@
 		</div>
 		<div class="d-inline closse" onclick="toggleCartt()"><img src="./images/close-circle-line.png" alt="" srcset=""></div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
 	<section class="product-single mt-4">
 		<div class = "card-wrapper container-main mt-4">
 				<div class = "card" style="border: none !important;">
@@ -164,17 +152,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
-
-
-
-
-
-
-
-
-
-
+	</section>
 	<!-- sidebar end  -->
 	<div class="container-main mt-4">
 		<h2 class="product-detail-heading mb-3">Product Details</h2>
@@ -189,25 +167,6 @@
 			<h6 class="sub-head-product-details">XXL</h6>
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<div class="container-main category-section">
 		<div class="row">
 			<div class="col-lg-12">
@@ -341,36 +300,34 @@
 			</div>
       <hr>
       <div class="text-center">
-        <a href="#" class="text-dark">© 2022 All rights reserved. ERE BUSINESS SOLUTIONS </a>
+        <a href="https://www.erebsindia.com/" class="text-dark footer-text">© copyright 2022 Dunes | Designed by  ERE Business Solutions</a>
       </div>
 		</div>
   </footer>
-
-
 	<!-- js link -->
 	<script src="./js/main.js"></script>
 	<!-- slider brands script  -->
 	<script>
 		const imgs = document.querySelectorAll('.img-select a');
-const imgBtns = [...imgs];
-let imgId = 1;
+			const imgBtns = [...imgs];
+			let imgId = 1;
 
-imgBtns.forEach((imgItem) => {
-		imgItem.addEventListener('click', (event) => {
-				event.preventDefault();
-				imgId = imgItem.dataset.id;
-				slideImage();
-		});
-});
+			imgBtns.forEach((imgItem) => {
+					imgItem.addEventListener('click', (event) => {
+							event.preventDefault();
+							imgId = imgItem.dataset.id;
+							slideImage();
+					});
+			});
 
-function slideImage(){
-		const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+			function slideImage(){
+					const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
 
-		document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
-}
+					document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+			}
 
-window.addEventListener('resize', slideImage);
-</script>
+			window.addEventListener('resize', slideImage);
+	</script>
 	<script>
 	// slider home 
 		var swiper = new Swiper(".slide-container", {

@@ -1083,10 +1083,14 @@ transition: all 0.5s ease;
 @media (max-width:575px){
 	.cart .cart-main-div .inner-col-cart-img .cart-prdct-image{
 		margin-bottom: 20px !important;
+    height: 240px;
 	}
 	.add-addres .add-address-main-head{
 		font-size: 19px !important;
 		padding-bottom: 17px !important;
+	}
+	.banner-sub-head {
+    padding: 20px 0px !important;
 	}
 }
 @media (max-width:485px){
