@@ -82,6 +82,7 @@
 .category-section .populer-product .populer-product-image{
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	min-height: 310px;
 }
 .top-brands .view-all-home img{
 	width: 7px;
@@ -902,6 +903,11 @@ transition: all 0.5s ease;
     display: none;
   }
 }
+@media (max-width:1700px){
+	.category-section .populer-product .populer-product-image {
+		min-height: 260px;
+	}
+}
 @media (max-width:1300px){
 	.container-main {
     width: 90%;
@@ -921,6 +927,9 @@ transition: all 0.5s ease;
 	}
 	.category-section .populer-product .price-off-product {
     padding: 13px 16px;
+	}
+	.category-section .populer-product .populer-product-image {
+		min-height: 230px;
 	}
 }
 @media (max-width:991px){
@@ -982,6 +991,9 @@ transition: all 0.5s ease;
 	}
 	.lft-page-menu{
 		display: none !important;
+	}
+	.category-section .populer-product .populer-product-image {
+    min-height: 180px;
 	}
 }
 @media (max-width:600px){
